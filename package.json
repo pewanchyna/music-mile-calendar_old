@@ -1,0 +1,32 @@
+{
+  "name": "music-mile-calendar",
+  "version": "1.0.0",
+  "description": "Live event calendar for Calgary's Music Mile venues",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "scrape": "npm run build && npm start",
+    "test": "jest"
+  },
+  "keywords": [
+    "calgary",
+    "music",
+    "events",
+    "calendar",
+    "scraper"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/cheerio": "^0.22.35",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
