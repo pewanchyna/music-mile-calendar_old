@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Music Mile//Music Mile Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Music Mile Calendar
+X-WR-CALDESC:Live music events in Calgary's Music Mile
+X-WR-TIMEZONE:America/Edmonton
+END:VCALENDAR
